@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.C2 {
+    height: 2000px;
+    width: 6000px;
+}
+.C1 {
+    height: 913px;
+    width: 1000px;
+}
+.text1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+.text2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    padding-top: 30px;
+}
+ul {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #0c0c0c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+  }
+  .aytc{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+  }

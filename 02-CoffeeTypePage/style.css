@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.C2 {
+    height: 2000px;
+    width: 6000px;
+}
+
+.C1 {
+    height: 913px;
+    width: 1000px;
+}
+
+.text1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+
+.text2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+ul {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+.text3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding-top: 70PX;
+    padding-bottom: 20px;
+
+}
+
+.text4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding-bottom: 120px;
+}
+
+.text5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding-bottom: 120px;
+}
+
+.text6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.text7 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding-bottom: 120px;
+}
+
+.FRENCH {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.Details1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+
+}
+
+.Details2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+.Details3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+.C4 {
+    height: 913px;
+    width: 1500px;
+}
+
+.C5 {
+    height: 913px;
+    width: 1500px;
+}

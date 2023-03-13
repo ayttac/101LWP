@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.C2 {
+    height: 2000px;
+    width: 6000px;
+}
+.C1 {
+    height: 913px;
+    width: 1000px;
+}
+.text1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+.text2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    padding-top: 30px;
+}
+ul {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #8f9e99;
+    color: rgb(17, 17, 17);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]{
+    background-color: #a6b1a7;
+    font-size: 80px;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 0px;
+  }
+  
+  .col-15 {
+    float:left ;
+    width: 25%;
+    margin-top: 6px;
+   padding: 0px; 
+    margin-left: 0px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    padding-left: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .row{
+    font-size: 80px;
+
+  }
+  #name{
+    height: 100px;
+    width: 3000px;
+    border: 1px solid #0c0c0c;
+  }
+  #email{
+    height: 100px;
+    width: 3000px;
+    border: 1px solid #0c0c0c;
+  }
+  #Description{
+    height: 200px;
+    width: 3000px;
+    
+  }

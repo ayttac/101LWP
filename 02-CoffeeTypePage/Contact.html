@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assist/contact.css">
+    <link rel="stylesheet" href="/assist/index.html">
+    <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+    margin: 0px;
+    padding: 0px;
+}
+.C2 {
+    height: 2000px;
+    width: 6000px;
+}
+.C1 {
+    height: 913px;
+    width: 1000px;
+}
+.text1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+.text2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    padding-top: 30px;
+}
+ul {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #8f9e99;
+    color: rgb(17, 17, 17);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]{
+    background-color: #a6b1a7;
+    font-size: 80px;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 0px;
+  }
+  
+  .col-15 {
+    float:left ;
+    width: 25%;
+    margin-top: 6px;
+   padding: 0px; 
+    margin-left: 0px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    padding-left: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .row{
+    font-size: 80px;
+
+  }
+  #name{
+    height: 100px;
+    width: 3000px;
+    border: 1px solid #0c0c0c;
+  }
+  #email{
+    height: 100px;
+    width: 3000px;
+    border: 1px solid #0c0c0c;
+  }
+  #Description{
+    height: 200px;
+    width: 3000px;
+    
+  }
+    </style>
+</body>
+<body>
+    <img class="C1"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2hO3BJIO4seQ8fQg-v_-eY_vLpVzfNa6z1ZLS7Vk&s"
+        alt="C1">
+</body>
+<div class="text">
+    <div class="text1">Contact</div>
+    <ul>
+        <li><a class="Home" href="/assist/home.html">Home</a></li>
+        <li><a class="About" href="/assist/about.html">About</a></li>
+        <li><a class="Numbers" href="/assist/numbers.html">Numbers</a></li>
+        <li><a class="Contact" href="/assist/Contact.html">Contact</a></li>
+    </ul>
+</div>
+<img class="C2" src="https://wallpapercave.com/wp/VcV0ULD.jpg" alt="C2">
+<div class="text2">Contact</div>
+<div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-15">
+          <label for="name"> Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" name="name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-15">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="email" name="Email">
+        </div>
+      </div>
+
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-25"> Description </div>
+        <div class="col-75">
+          <textarea id="Description" name="Description" placeholder="Your Description.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="submit here ">
+      </div>
+    </form>
+  </div>
+
