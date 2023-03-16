@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.esas   {
+    width: 100px;
+        height: 100px;
+        flex-direction: column;
+        margin: 100px auto;
+        text-decoration: 1s;
+        display: flex;
+}
+
+
+
+.esas>.box{
+
+width: 100%;
+display: flex;
+height: fit-content;
+}
+.t1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.t2{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.t3{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+.t4{
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+}
+
+.esas:hover .t1{
+transform-origin: top left;
+rotate: 90deg;
+transition-duration: 1s;
+}
+.esas:hover .t2{
+ transition-duration: 1s;
+transform-origin: top right;
+rotate: -90deg;
+}
+.esas:hover .t3{
+transition-duration: 1s;
+transform-origin: bottom left;
+rotate: -90deg;
+}
+.esas:hover .t4{
+    transition-duration: 1s;
+transform-origin: bottom right;
+rotate: 90deg;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    margin: 40px auto;
+    margin-left: 40px;
+}
+    </style>
+</head>
+
+<body>
+<div class="esas">
+    <h1>Hi</h1>
+    <div class="box">
+<div class="t1"> </div>
+<div class="t2"></div>
+    </div>
+    <div class="box">
+        <div class="t3"></div>
+        <div class="t4"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
