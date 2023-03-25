@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.hero{
+    background-color: rgb(243, 216, 183);
+    height: ;
+}
+header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background-color: rgb(243, 216, 183);
+  }
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 8%;
+   padding-right: 410px;
+   z-index: 1;
+   position: fixed;
+   gap: 280px;
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: darkorange;
+}
+h2{
+    text-shadow: 2px 2px #b5b0b0ec;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: large;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+    color: darkorange;
+    transition: 400ms;
+}
+section{
+    background-color: rgb(243, 216, 183);
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 0 500px;
+    padding-top: 120px;
+}
+ img{
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 30px;
+ }
+ .my_project{
+    height: 60vh;
+ }
+ i{
+    position: relative;
+    font-size: 50px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: darkorange;
+    margin-left: 140px;
+    margin-top: -30px;
+ }
+ hr{
+   
+    height: 1px;
+     width: 80px;
+     border: 2px solid  darkorange;
+     margin: 0 750px;
+ }
