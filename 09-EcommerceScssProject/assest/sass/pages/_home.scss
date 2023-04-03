@@ -1,0 +1,258 @@
+main{
+    position: absolute;
+    top: 790px;
+    z-index: 1;
+    max-width: 1530px;
+    max-height: 144px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.container_3{
+   max-width: 1530px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+    #unit_1{
+        margin: 0 auto;
+        max-width: 1530px;
+       padding: 10px;
+        display: flex;
+        background-color: #F7F7F9;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+    #unit_2{
+        margin: 0 auto;
+        max-width: 1530px;
+       margin-top: 20px;
+    .bags{position: relative;
+border-radius: 8px;
+        display: flex;
+        gap: 20px;
+       
+        .bag{
+            padding: 10px;
+            background-color: #F7F7F9;
+            max-width: 264px;
+            max-height: 162px;
+            display: flex;
+            justify-content: space-between;
+            .text_3{
+                display: flex;
+                align-items: start;
+            }
+        }
+    
+    }
+    }
+
+}
+#unit_3{
+    margin: 0 auto;
+    max-width: 1530px;
+  .Featured_view{
+    margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        .text_2{
+            font-size: 23px;
+            font-weight: bold;
+        }
+    }
+    .Featured_Products{
+        display: flex;
+        gap: 10px;
+margin-top: 20px;    
+justify-content: space-between;}
+.btn4{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F7F7F9;
+    margin-top: 10px;
+}
+.btn3{
+    margin: 5px ;
+    display: flex;
+    padding: 10px;
+    border-style:none ;
+    border-radius: 5px;
+color: white;
+background-color: red;
+}
+.img{
+    max-width: 218px;
+    max-height: 243px;
+}
+.New{
+    margin: 10px ;
+    display: flex;
+    padding: 10px;
+    border-style:none ;
+    border-radius: 5px;
+color: white;
+background-color: green;}
+
+.featured{
+    background-color: #F7F7F9; 
+    padding: 10px; 
+     }
+}
+.many{
+    font-weight: bolder;
+    color:  red;
+    opacity:100%;
+}
+b{ padding-left: 5px;
+    opacity: 50%;
+}
+.text_4{
+    display: flex;
+   align-items: center;
+}
+
+#unit_4{
+  .Besteller{
+    margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        .text_2{
+            font-size: 23px;
+            font-weight: bold;
+        }
+    }
+    .Besteller_Products{
+        display: flex;
+        gap: 10px;
+margin-top: 20px;    
+justify-content: space-between;
+}
+
+.btn3{
+    margin: 5px ;
+    display: flex;
+    padding: 10px;
+    border-style:none ;
+    border-radius: 5px;
+color: white;
+background-color: red;
+}
+.img{
+    max-width: 218px;
+    max-height: 243px;
+}
+.btn4{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F7F7F9;
+    margin-top: 10px;
+}
+.New{
+    margin: 10px ;
+    display: flex;
+    padding: 10px;
+    border-style:none ;
+    border-radius: 5px;
+color: white;
+background-color: green;}
+
+.besteller{
+    background-color: #F7F7F9;
+    padding: 10px; 
+      max-width: 360px;
+    max-height: 508px;
+     }
+}
+
+.many{
+    font-weight: bolder;
+    color:  red;
+    opacity:100%;
+}
+b{ padding-left: 5px;
+    opacity: 50%;
+}
+.text_4{
+    display: flex;
+   align-items: center;
+}
+
+
+#unit_5{
+  .Discount{
+    margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        .text_2{
+            font-size: 23px;
+            font-weight: bold;
+        }
+    }
+    .Discount_Products{
+        display: flex;
+        gap: 10px;
+margin-top: 20px;    
+justify-content: space-between;
+}
+
+.btn3{
+    margin: 5px ;
+    display: flex;
+    padding: 10px;
+    border-style:none ;
+    border-radius: 5px;
+color: white;
+background-color: red;
+}
+.img{
+    max-width: 218px;
+    max-height: 243px;
+}
+.btn4{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F7F7F9;
+    margin-top: 10px;
+}
+.New{
+    margin: 10px ;
+    display: flex;
+    padding: 10px;
+    border-style:none ;
+    border-radius: 5px;
+color: white;
+background-color: green;}
+
+.discount{
+    background-color: #F7F7F9;
+    padding: 10px; 
+      max-width: 360px;
+    max-height: 508px;
+     }
+}
+#star{
+    color: yellow;
+   
+}
+.many{
+    font-weight: bolder;
+    color:  red;
+    opacity:100%;
+}
+b{ padding-left: 5px;
+    opacity: 50%;
+}
+.text_4{
+    display: flex;
+   align-items: center;
+}

@@ -1,0 +1,56 @@
+header{
+position: relative;
+max-width: 1530px;
+max-height: 584px;
+top: 206px;
+margin: 0 auto;
+background-color: #FFE2E0;
+.container_2{
+    position: relative;
+    max-width: 1128px;
+    max-height: 584px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFE2E0;
+    
+}
+.part_1{
+    padding-top: 99px;
+    max-width: 453px;
+    max-height: 584px;
+    #off{padding-bottom: 10px;
+        color: red;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #text_1{
+        max-width: 415px;
+        max-height: 68px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+font-size: 16px;
+text-align: justify;
+    }
+    #btn2{
+        max-width: 192px;
+        max-height: 52px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 0px solid green;
+padding: 12px 56px;
+color: white;
+background-color: green;
+    }
+    .part_2{
+        position: absolute;
+        max-width: 642px;
+        max-height: 535px;
+    }
+}
+
+
+
+}

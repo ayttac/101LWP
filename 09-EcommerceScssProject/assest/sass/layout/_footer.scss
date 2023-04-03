@@ -1,0 +1,129 @@
+footer{   
+  max-width: 1530px;
+  margin: 0 auto;
+     position: absolute;
+     top: 2600px;
+     right: 0;
+left: 0;
+    }
+.section_3 {
+    background-color: #F7F7F9;
+    border-bottom: 1px solid rgba(39, 49, 66, 0.1490196078);
+  
+  .footer{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 39px;
+ .footer_search{
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        background-color: white;
+        height: 40px;
+        padding-right: 10px;
+      }
+      .footer_name {
+        display: flex;
+        justify-content: space-between;
+        background-color: #F7F7F9;
+        align-items: center;
+        padding-bottom: 30px;
+      }
+      
+   input {
+    border-style: none;
+    max-width: 504px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  }
+ 
+}
+  
+  .section_4 {
+    background-color: #F7F7F9;
+    padding-bottom: 80px;
+ 
+  .footer{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1128px;
+    justify-content: space-between;
+    padding-top: 56px;
+  }
+ .footer_about {
+    max-width: 320px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(33, 33, 33, 0.7490196078);
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 24px;
+      }
+      .text_5 {
+        padding-bottom: 40px;
+      }
+  }
+
+
+  .send_message {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    max-width: 179px;
+    max-height: 48px;
+    padding: 5px 10px;
+  }
+
+  .footer_end {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    ul {
+        font-weight: bold;
+        li {
+            font-weight: lighter;
+            line-height: 35px;
+            width: 122px;
+          }
+      }
+    }}
+    .section_5{
+        padding:10;
+      display: flex;
+    justify-content: space-between;
+    .footer {
+      max-width: 1128px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .ALL2020 {
+    text-align: start;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      font-size: 16px;
+    opacity: 80%;
+
+    }
+ .ICON {
+      display: flex;
+      gap: 10px;
+    }
+}
+
+
+
+
+     
