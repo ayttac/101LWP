@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  max-height: 124px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #F6F7F9;
+}
+
+header {
+  max-width: 1440px;
+  max-height: 400px;
+  padding: 20px;
+}
+header .container {
+  max-width: 1300px;
+  max-height: 124px;
+  margin: 0 auto;
+}
+header .cars_photo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+header .cars_photo .car_rentral {
+  position: relative;
+  width: 47%;
+  background: #54a6ff;
+  background-image: url(/assest/img/BG.svg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  padding-bottom: 15%;
+  display: grid;
+  border-radius: 10px;
+  gap: 20px;
+}
+header .cars_photo .car_rentral .rental_car {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 120px;
+  max-height: 44px;
+  background: #3563e9;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  top: 180px;
+  text-align: center;
+}
+header .cars_photo .car_rent {
+  width: 47%;
+  position: relative;
+  background: #3563e9;
+  background-image: url(/assest/img/BG\ \(1\).svg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  padding-bottom: 15%;
+  display: grid;
+  gap: 20px;
+  border-radius: 10px;
+}
+header .cars_photo .car_rent .rental_car1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 120px;
+  max-height: 44px;
+  background: #54a6ff;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+header .cars_photo .text {
+  font-weight: bold;
+  size: 32px;
+  max-width: 272px;
+  max-height: 96px;
+}
+header .cars_photo .text_1 {
+  font: 16px;
+  max-width: 284px;
+  max-height: 48px;
+}
+
+@media only screen and (max-width: 375px) {
+  .cars_photo {
+    max-width: 327px;
+    max-height: 232px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cars_photo .text {
+    font-size: 16px;
+    flex-wrap: wrap;
+    max-width: 240px;
+    max-height: 96px;
+  }
+  .car_rentral {
+    width: 100%;
+    flex-direction: column;
+  }
+  .car_rent {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+nav {
+  max-width: 1440px;
+  max-height: 124px;
+  padding: 20px;
+}
+nav .container {
+  max-width: 1300px;
+  max-height: 124px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .Morent {
+  display: flex;
+  gap: 100px;
+}
+nav .Morent h1 {
+  color: #3563E9;
+}
+nav .Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  border-radius: 30%;
+}
+nav .Search input {
+  padding: 6px;
+  padding-right: 100px;
+  outline: none;
+  border: none;
+  background-color: rgb(230, 244, 248);
+  flex-grow: 1;
+}
+nav .Search button {
+  background-color: rgb(228, 244, 248);
+  padding: 6px;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+}
+nav .icon ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+nav .icon i {
+  border: 1px solid rgb(180, 215, 255);
+  border-radius: 50%;
+  padding: 5px;
+}
+nav .Search_1 {
+  display: none;
+  border: none;
+  outline: none;
+  align-items: center;
+  margin-top: 10px;
+}
+nav .Search_1 .btn3 {
+  background-color: rgb(214, 240, 247);
+  padding: 6px;
+  outline: none;
+  border: none;
+}
+nav .Search_1 input {
+  padding: 6px;
+  outline: none;
+  border: none;
+  background-color: rgb(214, 240, 247);
+}
+nav .Search_1 .btn4 {
+  background-color: rgb(214, 240, 247);
+  padding: 6px;
+  outline: none;
+  border: none;
+}
+nav .Search_1 .btn_4 {
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: block;
+  }
+  nav .Search {
+    display: none;
+  }
+  nav .icon li:not(.profil) {
+    display: none;
+  }
+  nav .Search_1 {
+    display: block;
+  }
+  nav .Search_1 {
+    display: flex;
+  }
+}
+main {
+  max-width: 1440px;
+  margin-top: 250px;
+  background-color: #f6f7f9;
+}
+main .container {
+  max-width: 1300px;
+  max-height: 124px;
+  margin: 0 auto;
+}
+main .container .content_1 {
+  display: flex;
+  justify-content: space-between;
+}
+main .container .box1 {
+  max-width: 582px;
+  max-height: 132px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .container ul {
+  display: flex;
+}
+main .container ul li {
+  display: flex;
+  flex-direction: column;
+}
+main .box3 {
+  max-width: 582px;
+  max-height: 132px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .box3 .hero2 {
+  flex-direction: column;
+}
+main .box3 .hero2 ul {
+  display: flex;
+}
+main .box3 .hero2 ul li {
+  flex-direction: column;
+}
+main .box3 .hero2 ul option {
+  color: rgb(173, 173, 173);
+}
+main option {
+  background: #90a3bf;
+  border: none;
+}
+main p {
+  height: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .content_1 {
+    margin-top: 400px;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

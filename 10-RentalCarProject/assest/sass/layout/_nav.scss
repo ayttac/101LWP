@@ -1,0 +1,108 @@
+nav{
+    max-width: 1440px;
+    max-height: 124px;
+    padding: 20px;
+
+    .container{
+        max-width: 1300px;
+        max-height: 124px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Morent{
+        display: flex;
+       gap: 100px;
+       h1{
+      color: #3563E9;
+
+       }
+    }
+    .Search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        border-radius: 30%;
+        input{
+            padding: 6px;
+            padding-right: 100px;
+           outline: none;
+           border: none;
+           background-color: rgb(230, 244, 248); 
+           flex-grow: 1;
+            }
+            button{
+                background-color: rgb(228, 244, 248); 
+                padding: 6px;
+                outline: none;
+                border: none; 
+                flex-grow: 1;
+
+            }
+    }
+
+.icon{
+    ul{
+        display: flex;
+ gap: 20px;   
+ align-items: center;
+    }
+   i{
+    border: 1px solid rgb(180, 215, 255);
+    border-radius: 50%;
+    padding: 5px;
+   }
+}
+.Search_1{
+    
+    display: none;
+    border: none;
+    outline: none;
+    align-items: center;
+    margin-top: 10px;
+    
+    .btn3{
+        background-color: rgb(214, 240, 247); 
+        padding: 6px;
+        outline: none;
+        border: none; 
+    }
+    input{
+        padding: 6px;
+       outline: none;
+       border: none;
+       background-color: rgb(214, 240, 247); 
+        }
+        .btn4{
+            background-color: rgb(214, 240, 247); 
+            padding: 6px;
+            outline: none;
+           border: none;
+        }
+        .btn_4{
+            padding-left: 5px;
+        }
+}
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+       display: block;
+      .Search{
+        display: none;
+      }
+      .icon{
+        li:not(.profil){
+            display: none;
+        }
+      }
+      .Search_1{
+        display: block;
+       }
+       .Search_1{
+        display: flex;
+       }
+    }
+  }

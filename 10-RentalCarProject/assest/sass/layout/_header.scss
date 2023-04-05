@@ -1,0 +1,114 @@
+header{
+  max-width: 1440px;
+  max-height: 400px;
+  padding: 20px;
+
+.container{
+    max-width: 1300px;
+    max-height: 124px;
+    margin: 0 auto;
+}
+.cars_photo {
+ display: flex;
+ justify-content: space-between;
+ color: white;
+  
+  .car_rentral {
+    position: relative;
+      width: 47%;
+    background: #54a6ff;
+    background-image: url(/assest/img/BG.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 15%;
+    display: grid;
+    border-radius: 10px;
+    gap: 20px;
+    
+
+    .rental_car {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 120px;
+      max-height: 44px;
+      background: #3563e9;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+      top: 180px;
+      text-align: center;
+    }
+  }
+  .car_rent {
+     width: 47%;
+     position: relative;
+    background: #3563e9;
+    background-image: url(/assest/img/BG\ \(1\).svg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 15%;
+    display: grid;
+    gap: 20px;
+    border-radius: 10px;
+
+    .rental_car1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 120px;
+      max-height: 44px;
+      background: #54a6ff;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+    }
+  }
+  .text {
+    font-weight: bold;
+    size: 32px;
+    max-width: 272px;
+    max-height: 96px;
+  }
+  .text_1 {
+    font: 16px;
+    max-width: 284px;
+    max-height: 48px;
+  }
+}
+}
+
+@media only screen and (max-width: 375px) {
+ .cars_photo{
+  max-width: 327px;
+  max-height:232px ;
+  flex-direction: column;
+  gap: 10px;
+
+  .text{
+    font-size: 16px;
+    flex-wrap: wrap;
+    max-width: 240px;
+    max-height: 96px;
+  }
+ }
+  .car_rentral{
+    // max-width: 327px;
+    // max-height:232px ;
+    width: 100%;
+    flex-direction: column;
+
+  }
+
+  .car_rent{
+    // max-width: 327px;
+    // max-height:232px ;
+    width: 100%; 
+    flex-direction: column;
+
+  }
+}
