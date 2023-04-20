@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+body{
+    background-color: black;
+}
+.nike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    color: white;
+    margin-top: 40px;
+}
+
+.container__nike_contant{
+    margin-left: 0;
+    height: 350px;
+    width: 530px;
+    background-color: yellow;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.nike_contant__logo{
+    height: 120px;
+    width: 130px;
+    color: white;
+    margin-left: 25px;
+    }
+.container__nike_contant__airstruc1_text{
+    color: white;
+    width: 410px;
+    font-size: 43px;
+    font-family: 'Noto Sans,'sans-serif;
+    left: 0;
+}
+.container__nike_contant__lorem{
+    
+    color: white;
+    padding-top: 10px;
+    width: 400px;
+    font-family: 'Noto Sans,'sans-serif;
+}
+.container__nike_shoe {
+  
+    width: 400px;
+    height: 400px;
+    margin-left: 220px;
+    margin-top: -300px;
+}
+
+
+
+.container__new{
+    height: 350px;
+    width: 530px;
+    background-color: white;
+    padding-left: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black;
+}
+.container__new__airstruc2_text{
+    color: black;
+    padding-top: 20px;
+    font-family: 'Noto Sans,'sans-serif;
+    margin-right: 200px;
+    margin-left: 0;
+}
+.container__new__airstruc2_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__new__airstruc2_btn{
+    /* position: absolute; */
+    background-color: green;
+    padding: 3px 20px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 20px;
+}
+.container__new__airstruc2__run{
+    padding-top: 15px;
+    color: gray;
+    font-size: 10px;
+}
+.container__new__airstruc2__star_icon{
+    color: black;
+    padding-top: 15px;
+}
+#gray{
+    color: gray;
+}
+.container__new__airstruc2__size_text{
+    color: black;
+    padding-top: 15px;
+}
+.container__new__airstruc2__size_number{
+    width: 60px;
+    margin-left: 0;
+    display:flex;
+    gap: 20px;
+    color: gray;
+    padding-top: 15px;
+}
+.nine {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    padding-left: 6px;
+}
+.container__new__airstruc2__color_text{
+    padding-top: 15px;
+}
+.blue {
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+}
+
+.red {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+}
+
+
+.container__new__airstruc2_usd {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    margin-left: 310px;
+    margin-top: -25px;
+
+
+}
+
+.container__new__airstruc2_usd_text {
+    color: gray;
+}
+
+.container__new__airstruc2_usd_number {
+    color: white;
+    padding-left: 10px;
+}
