@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: Quicksand,sans-serif;
+}
+html{
+    font-size: 62.5%;
+}  
+body{
+    background-color: black;
+}
+.nike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+.container{
+    color: white;
+    margin-top: 40px;
+    width: 450px;
+    overflow: hidden;
+    
+}
+
+.container__nike_contant{
+   padding-left: 20px;
+    height: 350px;
+    width: 400px;
+    background-color: gold;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-right: 20px;
+    transition: background 0.5s;
+    
+}
+.nike_contant__logo{
+    height: 120px;
+    color: white;
+    }
+.container__nike_contant__airstruc1_text{
+    color: white;
+    font-size: 43px;
+  
+}
+.container__nike_contant__lorem{
+    
+    color: white;
+    padding-top: 10px;
+    
+}
+.container__nike_shoe {
+    transition: transform 1s;
+    max-width: 100%;
+    max-height: 100vh;
+    margin-left: 100px;
+    margin-top: -250px;
+} 
+.container__nike_shoe2 {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100vh;
+    width: 40rem;
+    right: 100px;
+    top: -70px;
+    transition: transform 1s;
+    overflow: hidden;
+} 
+  
+
+
+
+.container__new{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black;
+}
+.container__new__airstruc2_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__new__airstruc2_text{
+    color: black;
+    margin-left: 0;
+    font-size: 32px;
+
+}
+
+.container__new__airstruc2_btn{
+    background-color: green;
+    padding: 8px 23px;
+    border-radius: 7px;
+    color: white;
+    margin-right: 0px;
+    font-size: 15px;
+}
+.container__new__airstruc2__run{
+    padding-top: 15px;
+    color: gray;
+    font-size: 10px;
+}
+.container__new__airstruc2__star_icon{
+    color: black;
+    padding-top: 15px;
+}
+
+.container__new__airstruc2__size_text{
+    color: black;
+    padding-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container__new__airstruc2__size_number{
+    width: 100px;
+    font-size: 15px;
+    margin-left: 0;
+    display:flex;
+    gap: 20px;
+    color: gray;
+    padding-top: 15px;
+}
+.container__new__airstruc2__size_number span {
+    height: 2rem;
+    width: 2rem;
+    border-radius:50%;
+    background-color: green;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 2px;
+}
+.container__new__airstruc2__color_text{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.blue {
+    background-color: blue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right:10px ;
+}
+
+.red {
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+
+.container__new__airstruc2_usd {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    margin-left: 200px;
+    margin-top: -25px;
+    box-shadow: 0 1rem 2rem rgba(28, 71, 122, 0.5);
+    transition: 0.5rem;
+}
+
+.container__new__airstruc2_usd_text {
+    color: gray;
+    font-size: 20px;
+}
+
+.container__new__airstruc2_usd_number {
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+
+.container.change .container__nike_contant{
+    background-color: #d35246;
+}
+
+
+.container.change .container__new__airstruc2_usd {
+    background-color: #d35246;
+}
+
+
+.container.change .container__nike_shoe{
+    transform: translate(-50rem) rotate(45deg);
+}
+.container.change .container__nike_shoe2{
+    transform: translate(-40rem) rotate(-45deg);
+}
+/* .container.change .container__new__airstruc2_usd_text {
+  400.00
+} */
