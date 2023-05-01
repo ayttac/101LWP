@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    // justify-content: center;
+    flex-direction: column;
+    // align-items: center;
+
+
+    .templeate {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        flex-direction: column;
+
+        .box {
+
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+
+            p {
+                margin-right: 10px;
+                color: rgba(0, 0, 0, 0.705);
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-items: start;
+            }
+
+            input {
+                position: relative;
+                display: inline-block;
+                font-size: 20px;
+                box-sizing: border-box;
+                transition: .5s;
+                margin-top: 10px;
+                padding: 5px;
+                border-radius: 5px;
+                // border: 0.5px solid black;
+            }
+
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background-color: rgba(56, 56, 255, 0.555);;
+            padding: 28px;
+            margin: 0 28px;
+            box-sizing: 10px;
+            box-shadow: inset -2px 2px 2px white;
+
+            .form-title {
+                font-size: 26px;
+                font-weight: 600;
+                text-align: center;
+                padding-bottom: 6px;
+                color: white;
+                border-bottom: solid 1px white;
+            }
+
+
+            form {
+                .main-user-info {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    padding: 20px 0;
+
+                    // .user-input-box:nth-child(2n){
+                    //     justify-content: end;
+                    // }
+                    .user-input-box {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 50%;
+                        padding-bottom: 15px;
+
+
+                        label {
+                            width: 95%;
+                            color: white;
+                            font-size: 20px;
+                            font-weight: 400;
+                            margin: 5px 0;
+                        }
+
+                        input {
+                            height: 40px;
+                            width: 95%;
+                            border-radius: 7px;
+                            outline: none;
+                            border: 1px solid grey;
+                            padding: 0 10px;
+
+                        }
+                    }
+                }
+
+                .gender-details-box {
+                    .gender-title {
+                        color: white;
+                        font-size: 24px;
+                        font-weight: 600;
+                        border-bottom: 1px solid white;
+                    }
+
+                    .gedner-category {
+                        margin: 15px 0;
+                        color: white;
+
+                        label {
+                            padding: 0 20px 0 5px;
+                        }
+
+                        input {
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+            }
+
+            .form-submit-btn {
+                margin-top: 40px;
+
+                input {
+                    cursor: pointer;
+                    display: block;
+                    width: 100%;
+                    margin-top: 10px;
+                    font-size: 20px;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 3px;
+                    color: rgb(209, 209, 209);
+                    background: rgba(34, 136, 60, 0.904);
+                }
+
+                input:hover {
+                    background: rgba(56, 204, 93, 0.7);
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+
+
+    }
+
+
+    
+    }
+
+    @media(max-width:600px) {
+
+        .templeate {
+            // max-width: 300px;
+            // margin-top: 100px;
+            // display: flex;
+            // justify-content: center;
+            
+            .box {
+                max-width: 300px;
+                margin-top: 10px;
+                display: flex;
+
+                // justify-content: start;
+                // align-items: start;
+                p {
+                    display: none;
+                }
+
+                form {
+                    display: flex;
+                    font-size: 10px;
+
+                    #type {
+                        width: 90%;
+                    }
+
+                    input {
+                        width: 30%;
+                        font-size: 10px;
+                    }
+
+                    label {
+                        width: 100%;
+
+                    }
+                }
+            }
+
+
+            .container {
+                max-width: 300px;
+
+                form { 
+                    
+                    display: flex;
+                    flex-direction: column;
+
+
+                    .main-user-info {
+                        max-height: 300px;
+                        overflow: auto;
+
+                       
+                        .main-user-info::-webkit-scrollbar {
+                            width: 0;
+
+                        }
+
+                        .user-input-box {
+                            margin-bottom: 12px;
+                            width: 100%;
+
+                            .user-input-box:nth-child(2n) {
+                                justify-content: space-between;
+                            }
+                            input{
+                                width: 90%;
+                            }
+                            label{
+                                width: 10%;
+                            }
+                        }
+                    }
+
+                    .gender-details-box {
+                        .gedner-category {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                        }
+                    }
+
+
+                }
+            }
+
+        }
+    }
