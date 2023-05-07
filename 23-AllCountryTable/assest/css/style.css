@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#table {
+  margin: 20px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+#table td, #table th {
+  border: 1.5px solid rgba(8, 8, 8, 0.5137254902);
+  text-align: left;
+  padding: 5px;
+}
+#table tr td button {
+  padding: 10px;
+}
+#table img {
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
