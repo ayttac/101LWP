@@ -24,7 +24,7 @@ fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`)
         card.classList.add("card1");
         const title = `
           <div class="title">
-            <div class="country">${name}</div>
+            <div class="country">Country</div>
             <div class="flag">
               <img src="${flag}" alt="${name} flag">
             </div>
