@@ -1,0 +1,2097 @@
+$color_1: white;
+$color_2: #FFFFFF;
+$color_3: #EF6D58;
+$color_4: rgba(255, 255, 255, 0.64);
+$color_5: #391400;
+$color_6: rgba(57, 20, 0, 0.64);
+$color_7: #FDF0E9;
+$font-family_1: sans-serif;
+$background-color_1: #28293E;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family_1;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    .container_all {
+        max-width: 1170px;
+        margin: 0 auto;
+
+        main {
+            max-width: 1440px;
+
+            .main_section1 {
+                max-width: 1440px;
+                background: #FDF0E9;
+
+
+                .section1 {
+                    max-width: 1440px;
+                    margin: 0 auto;
+                    padding: 16px 35px;
+
+                    .design_agency {
+                        .design_agency__logo {
+                            max-width: 1170px;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 73px 0;
+
+                            .logo_group_1 {
+                                display: flex;
+                                gap: 146px;
+
+                                .digitalside {
+                                    max-width: 147px;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    .line {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .design {
+                        padding-top: 116px;
+                        display: flex;
+                        gap: 130px;
+
+                        .design_img {
+                            width: 50%;
+                        }
+
+                        .design_text {
+                            width: 50%;
+
+                            .about {
+                                width: 100%;
+                                max-width: 62px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .experience {
+                                width: 100%;
+                                max-width: 417px;
+                                font-weight: 800;
+                                font-size: 50px;
+                                line-height: 64px;
+                                letter-spacing: -1px;
+                                color: $color_5;
+                            }
+
+                            .provides {
+                                width: 100%;
+                                max-width: 277px;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 32px;
+                                color: $color_5;
+                            }
+
+                            .ability {
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: $color_6;
+                            }
+
+                            .about_us {
+                                background: #FFFFFF;
+                                box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                                border-radius: 6px;
+                                padding: 10px;
+                                font-weight: 900;
+                                font-size: 14px;
+                                line-height: 14px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                color: $color_5;
+                            }
+                        }
+                    }
+
+                    .design_number {
+                        margin-top: 161px;
+                        margin-bottom: 140px;
+                        display: flex;
+                        border: 1px solid #F3D1BF;
+                        border-radius: 6px 0px 0px 6px;
+
+                        .design_number_table {
+                            border-left: 1px solid #F3D1BF;
+                            padding: 45px 48px;
+                            box-sizing: border-box;
+                            width: 100%;
+                            max-width: 391px;
+
+                            .number {
+                                padding-bottom: 13px;
+                                max-width: 77px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 40px;
+                                line-height: 48px;
+                                color: $color_5;
+                            }
+
+                            .number_text {
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 32px;
+                                color: $color_5;
+                            }
+                        }
+                    }
+
+                    .design_makeing {
+                        display: flex;
+
+                        .design_makeing_text {
+                            width: 50%;
+
+                            .how_we_work {
+                                width: 100%;
+                                max-width: 157px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .making_your {
+                                width: 100%;
+                                max-width: 448px;
+                                font-weight: 800;
+                                font-size: 35px;
+                                line-height: 48px;
+                                color: $color_5;
+                            }
+
+                            .technical {
+                                max-width: 430px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: $color_6;
+                            }
+
+                            .read_more {
+                                width: 100%;
+                                max-width: 84px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: $color_5;
+                            }
+                        }
+
+                        .design_makeing_number {
+                            width: 50%;
+                            padding-top: 72px;
+
+                            .design_makeing_number_text {
+                                width: 100%;
+                                display: flex;
+                                gap: 66px;
+                                align-items: center;
+
+                                .first_number {
+                                    max-width: 34px;
+                                    width: 100%;
+                                    font-weight: 800;
+                                    font-size: 72px;
+                                    line-height: 80px;
+                                    letter-spacing: -2px;
+                                    color: $color_5;
+                                }
+
+                                .first_number_text {
+                                    max-width: 334px;
+                                    width: 100%;
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                    line-height: 32px;
+                                    color: $color_5;
+                                }
+                            }
+                        }
+                    }
+
+                    .unlock {
+                        padding-top: 127px;
+                        width: 100%;
+                        display: flex;
+                        gap: 100px;
+
+                        .unlock_img {
+                            width: 50%;
+
+                            .bitmap {
+                                width: 100%;
+                            }
+
+                            .oval {
+                                box-sizing: border-box;
+                                left: 130px;
+                                top: 2737px;
+                            }
+
+                            .triange {
+                                left: 273px;
+
+                                border-radius: 2px;
+                                margin-top: 11px;
+                                left: 273px;
+                                bottom: 167px;
+                                position: absolute;
+                                height: 34px;
+
+                            }
+                        }
+
+                        .unlock_text {
+                            width: 50%;
+                            padding-top: 60px;
+
+                            .video_reel {
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .possible {
+                                max-width: 469px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 40px;
+                                line-height: 48px;
+                                color: $color_5;
+                            }
+
+                            .business {
+                                width: 470px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: $color_6;
+                            }
+                        }
+                    }
+
+                    .site {
+                        display: flex;
+
+                        .site_text {
+                            width: 50%;
+
+                            .features {
+                                width: 93px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .new_look {
+                                max-width: 397px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 56px;
+                                line-height: 64px;
+                                letter-spacing: -1px;
+                                color: $color_5;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                            }
+
+                            .service {
+                                width: 470px;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 32px;
+                                color: $color_5;
+                            }
+
+                            .site_list_ul {
+                                list-style-type: none;
+                                margin-top: 26px;
+
+                                li {
+                                    display: flex;
+                                    list-style-type: none;
+                                    gap: 20px;
+                                    text-align: center;
+
+                                    .li_text {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 32px;
+                                        color: $color_6;
+                                    }
+
+                                    i {
+                                        margin-bottom: 13px;
+                                        border-radius: 50%;
+                                        color: $color_7;
+                                        background: #EF6C57;
+                                        border: none;
+                                        border: 1px solid #EF6C57;
+                                    }
+                                }
+                            }
+
+                            .site_img {
+                                width: 50%;
+                            }
+                        }
+                    }
+
+                    .card {
+                        display: flex;
+
+                        .card_text {
+                            width: 50%;
+
+                            .card_features {
+                                max-width: 93px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .long {
+                                max-width: 370px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 32px;
+                                color: $color_5;
+                            }
+
+                            .card_read {
+                                max-width: 84px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: $color_5;
+                            }
+                        }
+
+                        .card_box {
+                            width: 50%;
+                            display: flex;
+
+                            .professional {
+                                padding: 20px;
+                                width: 50%;
+                                max-width: 336px;
+                                background: #FFFFFF;
+                                border: 1px solid #F3D1BF;
+                                box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+                                border-radius: 6px 6px 0px 6px;
+
+                                .oval_1 {
+                                    position: relative;
+                                }
+
+                                .shape_1 {
+                                    position: absolute;
+                                    width: 32px;
+                                    height: 32px;
+                                    left: 707px;
+                                    top: 4232px;
+                                    background: #000000;
+                                }
+
+                                .card_box_text {
+                                    padding-top: 20px;
+                                    max-width: 154px;
+                                    width: 100%;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 32px;
+                                    color: $color_5;
+                                }
+
+                                .same {
+                                    max-width: 240px;
+                                    width: 100%;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    color: $color_6;
+                                }
+                            }
+
+                            .accessibility {
+                                margin-top: 40px;
+                                padding: 60px 10px 20px 10px;
+                                border: 1px solid #F3D1BF;
+                                border-radius: 0px 6px 6px 0px;
+
+                                .card_box_text {
+                                    max-width: 154px;
+                                    width: 100%;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 32px;
+                                    color: $color_5;
+                                }
+
+                                .same {
+                                    max-width: 240px;
+                                    width: 100%;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    color: $color_6;
+                                }
+                            }
+                        }
+                    }
+
+                    .digital {
+                        display: flex;
+                        margin-top: 200px;
+
+                        .digital_text {
+                            .digital_service {
+                                max-width: 78px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .digital_making {
+                                max-width: 463px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 56px;
+                                line-height: 55px;
+                                letter-spacing: -1px;
+                                color: $color_5;
+                            }
+
+                            .digital_agency {
+                                max-width: 470px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 32px;
+                                color: $color_5;
+                                margin-top: 20px;
+                            }
+
+                            .digital_text_profil {
+                                display: flex;
+                                padding-top: 20px;
+                                gap: 20px;
+
+                                .digital_pp {
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    .understanding {
+                                        max-width: 386px;
+                                        width: 100%;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                        color: $color_6;
+                                    }
+                                }
+                            }
+
+                            button {
+                                box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                                border-radius: 6px;
+                                padding: 10px;
+                                margin-top: 30px;
+
+                                .explore {
+                                    background: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+
+                    .our_agency {
+                        .our_agency_text {
+                            .our_home_text {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                                flex-direction: column;
+                            }
+
+                            .our_agency_service {
+                                max-width: 78px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: $color_3;
+                            }
+
+                            .our_agency_help {
+                                max-width: 336px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 40px;
+                                line-height: 48px;
+                                color: $color_5;
+                            }
+                        }
+
+                        .our_agency_table {
+                            margin-top: 30px;
+                            display: flex;
+                            box-sizing: border-box;
+                            width: 100%;
+                            border-radius: 6px 6px 0px 0px;
+
+                            .our_agency_design {
+                                width: 100%;
+                                max-width: 586px;
+                                padding: 30px;
+                                border: 1px solid #F3D1BF;
+                                box-sizing: border-box;
+                                border-radius: 6px 6px 0px 0px;
+
+                                .our_agency_design_personal {
+                                    display: flex;
+                                    text-align: center;
+
+                                    .oval_home {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        background-color: #EF6C57;
+
+                                    }
+
+                                    .path_home {
+                                        position: absolute;
+                                        max-width: 20px;
+                                        width: 100%;
+                                    }
+
+                                    .letter_home {
+                                        position: absolute;
+                                        max-width: 20px;
+                                        width: 100%;
+                                    }
+
+                                }
+
+                                .our_agency_table_personal {
+                                    display: flex;
+                                    align-items: center;
+
+                                    .oval_home {
+                                        margin-top: 5px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        background-color: #FFFFFF;
+
+                                        .path_home {
+                                            background-color: #EF6C57;
+                                            position: absolute;
+                                            width: 12px;
+                                            height: 2px;
+                                        }
+
+                                        .path_home2 {
+                                            background-color: #EF6C57;
+                                            position: absolute;
+                                            width: 12px;
+                                            height: 2px;
+                                            transform: rotate(90deg);
+                                        }
+                                    }
+                                }
+
+
+
+                                .text_2 {
+                                    max-width: 294px;
+                                    width: 100%;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    color: $color_6;
+                                    margin-top: 10px;
+                                }
+
+                                .text_3 {
+                                    max-width: 89px;
+                                    width: 100%;
+                                    font-weight: 400;
+                                    font-size: 13px;
+                                    line-height: 32px;
+                                    color: $color_5;
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+
+                        .our_agency_want {
+                            display: flex;
+                            gap: 5px;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 10px;
+
+                            .want {
+                                max-width: 157px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                text-align: right;
+                                color: rgba(57, 20, 0, 0.64);
+
+                            }
+
+                            .explore_now {
+                                max-width: 96px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: #391400;
+                            }
+                        }
+                    }
+                }
+
+                // section1
+                .section_latest_work {
+                    max-width: 1440px;
+                    width: 100%;
+                    background-color: #28293E;
+                    color: #FFFFFF;
+                    margin-top: 50px;
+
+                    .latest {
+                        margin: 0 auto;
+                        max-width: 1000px;
+                        padding: 100px 50px;
+                        width: 100%;
+
+                        .section_latest_work_first {
+                            .portfolio {
+                                max-width: 104px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: #EF6D58;
+                            }
+                        }
+
+                        .section_latest_work_second {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 20px;
+
+                            .latest_work {
+                                width: 342px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 56px;
+                                line-height: 64px;
+                                letter-spacing: -1px;
+                                color: #FFFFFF;
+
+                            }
+
+                            .explore_more {
+                                border: 1px solid rgba(255, 255, 255, 0.295743);
+                                border-radius: 6px;
+                                color: #FFFFFF;
+                                width: 170px;
+                                background-color: #28293E;
+                            }
+                        }
+                    }
+
+                    .section_latest_work_image {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        max-width: 1170px;
+
+                        .overlay_img {
+                            width: 100%;
+                            padding: 20px;
+                            border: 1px solid #3A3C56;
+
+                            .latest_overlay_img {
+                                width: 100%;
+                                max-width: 340px;
+                            }
+
+                            .illustration {
+                                position: absolute;
+                                padding-left: 40px;
+
+                                .branding {
+                                    position: absolute;
+                                    bottom: 150px;
+                                    color: #000000;
+                                    padding: 12px;
+                                    border-radius: 19px;
+                                    background: #FFFFFF;
+                                }
+
+                                .sofa {
+                                    width: 200px;
+                                    position: absolute;
+                                    bottom: 70px;
+                                    font-size: 35px;
+                                    font-weight: 700;
+                                    line-height: 48px;
+                                    letter-spacing: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // section_latest_work
+                .section_professional_web {
+                    max-width: 1440px;
+                    width: 100%;
+                    background-color: #FDF0E9;
+                    padding: 120px 0px 50px 0;
+
+                    .section_professional_web_first {
+                        display: flex;
+
+                        .section_professional_web_image {
+                            width: 50%;
+
+                            .section_professional_web_image_pic {
+                                width: 100%;
+                                max-width: 500px;
+
+                            }
+                        }
+
+
+
+                        .section_professional_web_text {
+                            width: 50%;
+                            max-width: 500px;
+                            margin-left: 20px;
+
+                            .gabriel {
+                                // max-width: 141px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                color: #EF6D58;
+                            }
+
+                            .professional {
+                                max-width: 450px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 56px;
+                                line-height: 64px;
+                                letter-spacing: -1px;
+                                color: #391400;
+                                padding: 15px 0px;
+
+                            }
+
+                            .provides {
+                                max-width: 277px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 32px;
+                                color: #391400;
+                            }
+
+                            .ability {
+                                max-width: 470px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: rgba(57, 20, 0, 0.64);
+                                padding: 15px 0px;
+                            }
+
+                            .about_me {
+                                color: #000000;
+                                background: #FFFFFF;
+                                box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                                border-radius: 6px;
+                                padding: 10px 20px;
+                                border: none;
+                                font-weight: 900;
+                                font-size: 14px;
+                                line-height: 14px;
+                                text-align: center;
+                                color: #391400;
+                            }
+
+                        }
+
+
+                    }
+
+                    .section_professional_web_second {
+                        padding: 80px 50px 10px 50px;
+                        width: 100%;
+                        max-width: 1170px;
+                        display: flex;
+                        margin: 0 auto;
+
+                        .years {
+                            padding: 30px;
+                            max-width: 500px;
+                            width: 50%;
+                            display: flex;
+                            border: 1px solid #F3D1BF;
+                            border-radius: 6px 0px 0px 6px;
+
+                            .years_oval {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #EF6C57;
+                                width: 112px;
+                                height: 112px;
+                                border-radius: 50%;
+
+                                .combined_shape {
+                                    width: 100%;
+                                    max-width: 48px;
+                                }
+
+                            }
+
+                            .years_text {
+                                padding-left: 20px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+
+                                .years_text_number {
+                                    max-width: 77px;
+                                    width: 100%;
+                                    font-weight: 800;
+                                    font-size: 40px;
+                                    line-height: 48px;
+                                    color: #391400;
+                                }
+
+                                .years_text_project {
+                                    max-width: 198px;
+                                    width: 100%;
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    line-height: 32px;
+                                    color: #391400;
+
+                                }
+                            }
+                        }
+                    }
+
+
+
+
+
+
+
+
+                    // section_professional_web
+
+
+
+
+
+
+
+
+                }
+
+                // section_professional_web
+
+                .section_your_site {
+                    display: flex;
+                    background-color: #3A3C56;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 90px;
+                    padding-bottom: 100px;
+
+                    .section_your_site_text {
+
+                        .features {
+
+                            max-width: 93px;
+                            width: 100%;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 32px;
+                            letter-spacing: 3px;
+                            color: #EF6D58;
+                        }
+
+                        .give {
+                            max-width: 397px;
+                            width: 100%;
+                            font-weight: 800;
+                            font-size: 56px;
+                            line-height: 64px;
+                            letter-spacing: -1px;
+                            color: #FFFFFF;
+                            padding: 50px 0px;
+                        }
+
+                        .including {
+                            max-width: 470px;
+                            width: 100%;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 32px;
+                            color: #FFFFFF;
+                        }
+
+                        .your_site_list_ul {
+                            list-style-type: none;
+                            margin-top: 26px;
+
+                            li {
+                                display: flex;
+                                list-style-type: none;
+                                gap: 20px;
+                                text-align: center;
+
+                                .li_text {
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    color: rgba(255, 255, 255, 0.64);
+                                }
+
+                                i {
+                                    margin-bottom: 13px;
+                                    border-radius: 50%;
+                                    color: $color_7;
+                                    background: #EF6C57;
+                                    border: none;
+                                    border: 1px solid #EF6C57;
+                                }
+                            }
+
+                        }
+                    }
+
+
+                    .section_your_site_image {
+                        max-width: 500px;
+                    }
+                }
+
+                // section_your_site
+
+                .section_help_companies {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-bottom: 40px;
+                    background-color: #F3D1BF;
+
+                    .section_star {
+                        width: 148px;
+                        height: 148px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        top: -67px;
+
+                        .star {
+                            position: relative;
+                        }
+
+                        .gift {
+                            position: absolute;
+                        }
+                    }
+
+                    .move_faster {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+
+                        .help_companies_move {
+                            padding-right: 90px;
+
+                            .get_started {
+                                max-width: 144px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                color: #EF6D58;
+                            }
+
+                            .move {
+                                padding: 20px 0px;
+                                max-width: 217px;
+                                width: 100%;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #391400;
+                            }
+
+                            .section_help_move_btn {
+                                color: #FFFFFF;
+                                border: none;
+                                border-radius: 6px;
+                                padding: 5px 15px;
+                                background-color: #EF6D58;
+                            }
+                        }
+                    }
+                }
+
+                // section_help_companies
+
+                .section_client_saying {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #FDF0E9;
+                    padding: 100px 150px;
+
+                    .testimonials {
+                        max-width: 138px;
+                        width: 100%;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+                        color: #EF6D58;
+
+                    }
+
+                    .clients {
+                        max-width: 450px;
+                        width: 100%;
+                        font-weight: 800;
+                        font-size: 56px;
+                        line-height: 64px;
+                        text-align: center;
+                        letter-spacing: -1px;
+                        color: #391400;
+                        padding: 30px 0px 50px 0px;
+                    }
+
+                    .section_client_saying_card {
+                        display: flex;
+
+                        .client_card_graham {
+                            padding: 40px;
+                            border: 1px solid #F3D1BF;
+                            border-radius: 6px 0px 0px 6px;
+                            max-width: 400px;
+
+                            .client_card_text {
+                                padding: 20px 0px 60px 0px;
+                                max-width: 295px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                color: rgba(57, 20, 0, 0.64);
+                            }
+
+                            .client_card_portfolio {
+                                display: flex;
+                                align-items: center;
+                                gap: 20px;
+
+                                .client_card_portfolio_text {
+                                    .name {
+                                        // max-width: 205px;
+                                        width: 100%;
+                                        font-weight: 700;
+                                        font-size: 22px;
+                                        line-height: 32px;
+                                        color: #391400;
+
+                                    }
+
+                                    .surname {
+                                        max-width: 49px;
+                                        width: 100%;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 32px;
+                                        color: #391400;
+                                    }
+                                }
+                            }
+                        }
+
+                        .client_card_alan {
+                            padding: 40px;
+                            border: 1px solid #F3D1BF;
+                            border-radius: 6px 0px 0px 6px;
+
+                            .client_card_text {
+                                padding: 20px 0px 60px 0px;
+                                max-width: 295px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: rgba(57, 20, 0, 0.64);
+                            }
+
+                            .client_card_portfolio {
+                                display: flex;
+                                align-items: center;
+                                gap: 20px;
+
+                                .client_card_portfolio_text {
+                                    .name {
+                                        // max-width: 205px;
+                                        width: 100%;
+                                        font-weight: 700;
+                                        font-size: 22px;
+                                        line-height: 32px;
+                                        color: #391400;
+
+                                    }
+
+                                    .surname {
+                                        max-width: 70px;
+                                        width: 100%;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 32px;
+                                        color: #391400;
+                                    }
+                                }
+                            }
+                        }
+
+                        .client_card_kann {
+                            padding: 40px;
+                            border: 1px solid #F3D1BF;
+                            border-radius: 6px 0px 0px 6px;
+
+                            .client_card_text {
+                                padding: 20px 0px 60px 0px;
+                                max-width: 295px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: rgba(57, 20, 0, 0.64);
+                            }
+
+                            .client_card_portfolio {
+                                display: flex;
+                                align-items: center;
+                                gap: 20px;
+
+                                .client_card_portfolio_text {
+                                    .name {
+                                        // max-width: 205px;
+                                        width: 100%;
+                                        font-weight: 700;
+                                        font-size: 22px;
+                                        line-height: 32px;
+                                        color: #391400;
+
+                                    }
+
+                                    .surname {
+                                        max-width: 49px;
+                                        width: 100%;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 32px;
+                                        color: #391400;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .section_client_saying_btn {
+                        margin: 20px;
+
+                        .client_btn {
+                            padding: 10px 20px;
+                            color: #000000;
+                            background-color: #FFFFFF;
+                            border: none;
+                            box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                            border-radius: 6px;
+                        }
+                    }
+                }
+
+                // section_client_saying
+
+                .section_frequently_asked {
+                    background-color: #3A3C56;
+                    padding: 50px 23px;
+
+                    .section_frequently_faq {
+                        display: flex;
+                        padding: 50px;
+
+                        .section_frequently_asked_question {
+                            width: 50%;
+
+                            .faq {
+                                max-width: 34px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                                color: #EF6D58;
+
+                            }
+
+                            .frequently {
+                                max-width: 371px;
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 40px;
+                                line-height: 48px;
+                                color: #FFFFFF;
+                                padding: 40px 0px;
+                            }
+
+                            .digital {
+                                max-width: 470px;
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: rgba(255, 255, 255, 0.64);
+                            }
+
+                            .contact_me {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                color: #FFFFFF;
+                                border: none;
+                                margin-top: 20px;
+                                background-color: #3A3C56;
+                            }
+                        }
+
+                        .section_frequently_asked_digital_card {
+                            width: 50%;
+                            color: #FFFFFF;
+                            border: 1px solid #616272;
+                            border-radius: 0px 0px 6px 6px;
+                            width: 600px;
+                            height: 300px;
+
+                            .agency {
+                                padding: 20px;
+                                border-bottom: 1px solid #616272;
+
+                                .agency_text {
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    p {
+
+                                        max-width: 361px;
+                                        width: 100%;
+                                        font-weight: 700;
+                                        font-size: 24px;
+                                        line-height: 32px;
+                                        color: #FFFFFF;
+
+                                    }
+
+                                    .agency_icon {
+                                        display: flex;
+
+                                        .agency_icon_up {
+                                            width: 25px;
+                                            height: 25px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            padding: 5px;
+                                            background-color: #EF6C57;
+                                            border-radius: 50%;
+                                            color: #FFFFFF;
+                                        }
+
+                                        .agency_icon_down {
+                                            width: 25px;
+                                            height: 25px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            padding: 5px;
+                                            background-color: #EF6C57;
+                                            border-radius: 50%;
+                                            color: #FFFFFF;
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                                .agency_about {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .hire {
+                            padding: 20px;
+                            border-bottom: 1px solid #616272;
+
+                            .hire_text {
+                                display: flex;
+                                justify-content: space-between;
+
+                                p {
+
+                                    max-width: 361px;
+                                    width: 100%;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 32px;
+                                    color: #FFFFFF;
+
+                                }
+
+                                .hire_icon {
+                                    display: flex;
+
+                                    .hire_icon_up {
+                                        width: 25px;
+                                        height: 25px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 5px;
+                                        background-color: #EF6C57;
+                                        border-radius: 50%;
+                                        color: #FFFFFF;
+                                    }
+
+                                    .hire_icon_down {
+                                        width: 25px;
+                                        height: 25px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 5px;
+                                        background-color: #EF6C57;
+                                        border-radius: 50%;
+                                        color: #FFFFFF;
+                                        display: none;
+
+                                    }
+                                }
+                            }
+
+                            .hire_about {
+                                display: none;
+                            }
+                        }
+
+                        .efforts {
+                            padding: 20px;
+                            border-bottom: 1px solid #616272;
+
+                            .efforts_text {
+                                display: flex;
+                                justify-content: space-between;
+
+                                p {
+
+                                    max-width: 361px;
+                                    width: 100%;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 32px;
+                                    color: #FFFFFF;
+
+                                }
+
+                                .efforts_icon {
+                                    display: flex;
+
+                                    .efforts_icon_up {
+                                        width: 25px;
+                                        height: 25px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 5px;
+                                        background-color: #EF6C57;
+                                        border-radius: 50%;
+                                        color: #FFFFFF;
+                                    }
+
+                                    .efforts_icon_down {
+                                        width: 25px;
+                                        height: 25px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 5px;
+                                        background-color: #EF6C57;
+                                        border-radius: 50%;
+                                        color: #FFFFFF;
+                                        display: none;
+
+                                    }
+                                }
+                            }
+
+                            .effort_about {
+                                display: none;
+                            }
+                        }
+
+                        .can {
+                            padding: 20px;
+
+
+                            .can_text {
+                                display: flex;
+                                justify-content: space-between;
+
+                                p {
+
+                                    max-width: 361px;
+                                    width: 100%;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 32px;
+                                    color: #FFFFFF;
+
+                                }
+
+                                .can_icon {
+                                    display: flex;
+
+                                    .can_icon_up {
+                                        width: 25px;
+                                        height: 25px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 5px;
+                                        background-color: #EF6C57;
+                                        border-radius: 50%;
+                                        color: #FFFFFF;
+                                    }
+
+                                    .can_icon_down {
+                                        width: 25px;
+                                        height: 25px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 5px;
+                                        background-color: #EF6C57;
+                                        border-radius: 50%;
+                                        color: #FFFFFF;
+                                        display: none;
+
+                                    }
+                                }
+                            }
+
+                            .can_about {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .design_agency {
+                        .design_agency__logo {
+                            max-width: 1000px;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 40px 0;
+                        }
+                    }
+                }
+
+                // section_frequently_asked
+
+                .section_newsletter {
+                    background-color: #FDF0E9;
+                    padding: 50px 23px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .section_newsletter_text {
+                        .newsletter {
+                            max-width: 137px;
+                            width: 100%;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #391400;
+
+                        }
+
+                        .outsource {
+                            max-width: 403px;
+                            width: 100%;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: rgba(57, 20, 0, 0.64);
+
+                        }
+                    }
+
+                    .section_newsletter_input {
+                        display: flex;
+                        gap: 20px;
+
+                        form {
+                            .email {
+                                max-width: 400px;
+                                max-height: 100vh;
+                                padding: 10px;
+                            }
+                        }
+
+                        .subscribe {
+                            padding: 5px 10px;
+                            background-color: #FFFFFF;
+                            color: #391400;
+                            box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                            border-radius: 6px;
+                            border: 1px solid #391400;
+                        }
+                    }
+                }
+
+                // section_newsletter
+
+                .section_getInTouch {
+                    display: flex;
+                    gap: 50px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #3A3C56;
+                    padding: 100px 50px;
+                   
+
+                    .section_getInTouch_input {
+                        background: #FFFFFF;
+                        border-radius: 6px;
+                        padding: 30px;
+                        width: 100%;
+                        max-width: 500px;
+                        max-height: 400px;
+                        height: 100vh;
+                        .getInTouch_input {
+                            max-height: 300px;
+                            height: 100vh;
+                            .get_inTouch {
+                                max-width: 153px;
+                                width: 100%;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #391400;
+                                display: flex;
+                                flex-direction: column;
+
+                            }
+
+                            .form {
+                                margin-top: 10px;
+
+                                .email {
+                                    padding: 5px 30px 5px 5px;
+                                    width: 100%;
+                                }
+
+                                .subject {
+                                    padding: 5px 30px 5px 5px;
+                                    width: 100%;
+                                }
+
+                                .message {
+                                    padding: 5px 30px 50px 5px;
+                                    width: 100%;
+                                }
+
+                               
+
+                            }
+                            .submit_now {
+                                color: #FFFFFF;
+                                padding: 5px 10px;
+                                background: #EF6D58;
+                                border-radius: 6px;
+                                border: none;
+                                text-align: center;
+                                margin-top: 20px;
+                                display: flex;
+                                justify-content: end;
+                                align-items: end;
+                            }
+
+                        }
+                    }
+
+                    .section_getInTouch_contact_me {
+                        .section_getInTouch_contact_me_contact {
+                            max-width: 86px;
+                            width: 100%;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 32px;
+                            letter-spacing: 3px;
+                            text-transform: uppercase;
+                            color: #EF6D58;
+
+
+                        }
+
+                        .section_getInTouch_contact_me_text {
+                            max-width: 500px;
+                            width: 100%;
+                            font-weight: 800;
+                            font-size: 56px;
+                            line-height: 64px;
+                            letter-spacing: -1px;
+                            color: #FFFFFF;
+                            padding: 20px 0px;
+
+                        }
+
+                        .section_getInTouch_contact_me_about {
+                            max-width: 470px;
+                            width: 100%;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: rgba(255, 255, 255, 0.64);
+                            padding: 20px 0px;
+                        }
+
+                        .section_getInTouch_contact_me_news {
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            color: #FFFFFF;
+
+                            .section_getInTouch_contact_me_oval {
+                                width: 48px;
+                                height: 48px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                background: #EF6D58;
+                                margin: 10px 0px;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+
+            // main_section1
+        }
+    }
+}
+
+
+
+
+.our_agency_design {
+
+
+
+    .text_1 {
+        max-width: 83px;
+        width: 100%;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #391400;
+        margin-left: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+    .container {
+        position: relative;
+
+        .container_all {
+
+            .container_contant {
+                padding: 0 23px;
+
+                header {
+                    .navbar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 30px;
+
+                        .navbar_title {
+                            display: none;
+                        }
+
+                        .navbar_contact_btn {
+                            .contact {
+                                display: none;
+                            }
+
+                            .menu {
+                                display: block !important;
+                            }
+                        }
+                    }
+
+                    .box1 {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 50px !important;
+
+                        .box1_text1 {
+                            display: block;
+                            width: 100%;
+
+                            .modern {
+                                padding-top: 10px;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 32px;
+                                letter-spacing: 3px;
+                                text-transform: uppercase;
+                            }
+
+                            .help {
+                                width: 100%;
+                                font-weight: 800;
+                                font-size: 40px !important;
+                                line-height: 50px;
+                                letter-spacing: -1px;
+                                padding-top: 10px;
+                            }
+
+                            .agency {
+                                width: 100%;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 22px;
+                                padding-top: 10px;
+                            }
+
+                            .btn_1 {
+                                padding-top: 10px;
+                                font-size: 32px;
+
+                                .how_we_work {
+                                    padding: 4px;
+                                    line-height: 20px;
+                                    font-size: 10px;
+                                }
+                            }
+
+                            .contact_us {
+                                font-size: 10px;
+                                line-height: 10px;
+                            }
+                        }
+                    }
+
+                    .box1_images {
+                        padding-top: 30px;
+                        width: 100%;
+                        max-width: 329px;
+                    }
+
+                    .profil {
+                        padding-top: 5px;
+
+                        .profil_text {
+                            .put {
+                                padding-bottom: 2px;
+                                line-height: 20px;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+            main {
+                .main_section1 {
+                    .section1 {
+                        .our_agency {
+                            .our_agency_text {
+                                .our_home_text {
+                                    .our_agency_help {
+                                        font-size: 30px;
+                                    }
+
+                                    .our_agency_service {
+                                        max-width: 78px;
+                                        width: 100%;
+                                        font-size: 10px;
+                                        color: #EF6D58;
+                                    }
+                                }
+                            }
+
+                            .our_agency_table {
+                                display: flex;
+                                flex-direction: column;
+
+                                .our_agency_design {
+                                    border: 1px solid #EF6C57;
+
+                                    .our_agency_design_personal {
+                                        width: 100%;
+
+                                        .text_1 {
+                                            font-size: 15px;
+                                            margin-top: 0px;
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .our_agency_want {
+                                display: flex;
+                                flex-direction: column;
+                                text-align: center;
+
+                                .want {
+                                    font-size: 13px;
+                                    text-align: center;
+                                }
+
+                                .explore_now {
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+
+                    .section_latest_work {
+                        .latest {
+                            padding: 30px 20px;
+
+                            .section_latest_work_first {
+                                .portfolio {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .section_latest_work_second {
+                                display: flex;
+                                flex-direction: column;
+
+                                .latest_work {
+                                    font-size: 30px;
+                                }
+
+                                .explore_more {
+                                    margin-top: 20px;
+                                    width: 100px;
+                                }
+                            }
+                        }
+
+                        .section_latest_work_image {
+                            display: flex;
+                            flex-direction: column;
+
+                            .overlay_img {
+                                .latest_overlay_img {
+                                    max-width: 230px;
+                                }
+
+                                .illustration {
+                                    .branding {
+                                        padding: 5px;
+                                        bottom: 90px;
+                                    }
+
+                                    .sofa {
+                                        font-size: 32px;
+                                        bottom: 20px;
+                                        line-height: 22px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .section_professional_web {
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+
+                        .section_professional_web_first {
+                            display: flex;
+                            flex-direction: column;
+
+                            .section_professional_web_image {
+                                width: 100%;
+
+                                .section_professional_web_image_pic {
+                                    width: 100%;
+                                }
+                            }
+
+                            .section_professional_web_text {
+
+                                .gabriel {
+                                    width: 100%;
+                                    font-size: 16px;
+                                    letter-spacing: 0;
+                                }
+
+                                .professional {
+                                    width: 100%;
+                                    max-width: 250px;
+                                    font-size: 35px;
+                                    letter-spacing: 0;
+                                    line-height: 40px;
+                                }
+
+                                .provides {
+                                    font-size: 20px;
+                                    line-height: 20px;
+                                }
+
+                                .ability {
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+
+                        .section_professional_web_second {
+                            display: flex;
+                            flex-direction: column;
+                            padding: 10px;
+
+                            .years {
+                                width: 100%;
+                                padding: 5px;
+
+                            }
+
+                        }
+
+
+
+                    }
+
+
+
+                }
+            }
+        }
+
+        // container_contant
+    }
+
+    // container_all
+}
+
+// container

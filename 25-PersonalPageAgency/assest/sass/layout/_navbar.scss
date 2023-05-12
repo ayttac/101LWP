@@ -1,0 +1,72 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    .container_all {
+        max-width: 1170px;
+        margin: 0 auto;
+
+        .container_contant {
+            padding: 16px 35px;
+            width: 100%;
+            background: #28293E;
+
+            header {
+                width: 100%;
+                height: 880px;
+                color: $color_1;
+
+                .navbar {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .navbar_logo {
+                        box-sizing: border-box;
+                        padding-top: 16px;
+                        width: 152px;
+                        height: 48px;
+                        display: flex;
+                        align-items: center;
+                        gap: 14px;
+                        font-size: 24px;
+                    }
+
+                    .navbar_title {
+                        width: 515px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        padding-top: 28px;
+                        line-height: 32px;
+
+                        ul {
+                            display: flex;
+                            list-style-type: none;
+                            justify-content: space-around;
+                            color: $color_2;
+                        }
+                    }
+
+                    .navbar_contact_btn {
+                        border: 1px solid rgba(255, 255, 255, 0.295743);
+                        border-radius: 6px;
+
+                        button {
+                            padding: 10px;
+                            background-color: $background-color_1;
+                            color: $color_1;
+                        }
+
+                        .menu {
+                            display: none;
+                        }
+                    }
+                }
+
+            }
+        }
+    }}
