@@ -1,0 +1,77 @@
+header {
+    position: relative;
+    background-image: url('/assets/img/WhatsApp\ Image\ 2023-05-30\ at\ 13.01.06.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
+    min-height: 500px;
+    height: 100%;
+    color: white;
+    text-align: center;
+// padding-top: 100px;
+    .empty {
+        background-image: url('/assets/img/WhatsApp\ Image\ 2023-05-30\ at\ 13.01.06.jpg');
+        width: 100%;
+        max-width: 1440px;
+        min-height: 500px;
+        height: 100%;
+    }
+
+    .empty.overlay {
+        background: rgba(0, 0, 0, 0.45);
+        content: "";
+
+    }
+
+    .contant {
+        .discount {
+            margin: 0 auto;
+            max-width: 500px;
+            width: 100%;
+            margin-bottom: 200px;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 900;
+                line-height: 50px
+            }
+        }
+
+        .wiens {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+
+            .like_comments {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+
+                .like {
+                    margin-bottom: 35px;
+                }
+            }
+
+            .profil {
+                .name {
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+
+                .time {
+                    font-size: 12px;
+                    margin: 15px 0px;
+                }
+
+                .profil_img {
+                    max-width: 50px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+}

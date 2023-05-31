@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  max-width: 1440px;
+  background: white;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+nav .contant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav .contant .menu {
+  display: none;
+}
+nav .contant .menu i {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+}
+nav .contant .nav_title ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav .contant .nav_title ul li {
+  transition: 300ms;
+  font-weight: 600;
+  font-size: 13px;
+}
+nav .contant .nav_title ul li:hover {
+  color: #007bff;
+}
+nav .contant .nav_title ul .pages {
+  transition: 600ms;
+}
+nav .contant .nav_title ul .pages:hover .pages_title {
+  display: block !important;
+}
+nav .contant .nav_title ul .pages .pages_title {
+  position: absolute;
+  display: none;
+  text-align: start;
+  padding: 10px 45px 10px 15px;
+  background-color: #fff;
+}
+nav .contant .nav_title ul .pages .pages_title .pages_p {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  transition: 200ms;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+}
+nav .contant .nav_title ul .pages .pages_title .pages_p:hover {
+  color: #007bff;
+}
+nav .contant .nav_title ul .pages .pages_title .pages_p:hover .pages_title {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  nav .contant .menu {
+    display: block;
+  }
+  nav .contant .menu i {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  nav .contant .nav_title {
+    display: none;
+  }
+}
+header {
+  position: relative;
+  background-image: url("/assets/img/WhatsApp Image 2023-05-30 at 13.01.06.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 500px;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+header .empty {
+  background-image: url("/assets/img/WhatsApp Image 2023-05-30 at 13.01.06.jpg");
+  width: 100%;
+  max-width: 1440px;
+  min-height: 500px;
+  height: 100%;
+}
+header .empty.overlay {
+  background: rgba(0, 0, 0, 0.45);
+  content: "";
+}
+header .contant .discount {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+header .contant .discount h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+}
+header .contant .wiens {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+header .contant .wiens .like_comments {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+header .contant .wiens .like_comments .like {
+  margin-bottom: 35px;
+}
+header .contant .wiens .profil .name {
+  font-size: 14px;
+  font-weight: 600;
+}
+header .contant .wiens .profil .time {
+  font-size: 12px;
+  margin: 15px 0px;
+}
+header .contant .wiens .profil .profil_img {
+  max-width: 50px;
+  text-align: left;
+}
+
+.latest .contant .news {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.latest .contant .news h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.latest .contant .news .lorem {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+.latest .contant .cardBox {
+  display: flex;
+  gap: 40px;
+}
+.latest .contant .cardBox .card .time {
+  max-width: 116px;
+  font-size: 13px;
+  background-color: black;
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.637);
+  margin: 20px 0;
+}
+.latest .contant .cardBox .card .text {
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+.topics {
+  text-align: center;
+  background: #f9f9ff;
+  padding: 60px 0;
+}
+.topics .contant .hot {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.topics .contant .hot h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.topics .contant .hot .lorem {
+  color: #777;
+  margin: 30px 0;
+}
+.topics .contant .cardBox {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.topics .contant .cardBox .card {
+  margin-top: 15px;
+  display: flex;
+  max-width: 500px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.topics .contant .cardBox .card .cardImg {
+  display: flex;
+  max-width: 200px;
+}
+.topics .contant .cardBox .card .cardImg img {
+  transition: 600ms;
+}
+.topics .contant .cardBox .card .cardImg img:hover {
+  transform: scale(1.3);
+}
+.topics .contant .cardBox .card .cardImg .time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 50px;
+  padding: 15px;
+}
+.topics .contant .cardBox .card .cardImg .time .time20 {
+  font-size: 15px;
+  font-weight: 800;
+}
+.topics .contant .cardBox .card .cardImg .time .dec {
+  font-size: 11px;
+}
+.topics .contant .cardBox .card .cardText {
+  margin-top: 20px;
+  max-width: 250px;
+}
+.topics .contant .cardBox .card .cardText .lorem {
+  color: #777;
+  font-size: 13px;
+  margin: 20px 0;
+}
+.topics .contant .cardBox .card .cardText .like_comments {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 13px;
+}
+.topics .contant .load {
+  margin-top: 40px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #62bdfc;
+  background-color: #62bdfc;
+}
+.topics .contant .load:hover {
+  color: #62bdfc;
+  border: 1px solid #62bdfc;
+  background-color: #fff;
+}
+
+.fashion {
+  text-align: center;
+}
+.fashion .contant .week {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.fashion .contant .week h5 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.fashion .contant .week .lorem {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+.fashion .contant .card_box {
+  display: flex;
+  gap: 40px;
+  text-align: start;
+}
+.fashion .contant .card_box .cards .cardImg {
+  display: flex;
+  max-width: 200px;
+}
+.fashion .contant .card_box .cards .cardImg img {
+  transition: 600ms;
+}
+.fashion .contant .card_box .cards .cardImg img:hover {
+  transform: scale(1.3);
+}
+.fashion .contant .card_box .cards .card_time {
+  max-width: 116px;
+  font-size: 13px;
+  background-color: black;
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.637);
+  margin: 20px 0;
+}
+.fashion .contant .card_box .cards .card_text {
+  margin-top: 20px;
+  max-width: 250px;
+}
+.fashion .contant .card_box .cards .card_text .lorem {
+  color: #777;
+  font-size: 13px;
+  margin: 10px 0;
+}
+.fashion .contant .card_box .cards .card_text .like_comments {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 13px;
+}
+.fashion .contant .loadBtn {
+  margin-top: 40px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #62bdfc;
+  background-color: #62bdfc;
+}
+.fashion .contant .loadBtn:hover {
+  color: #62bdfc;
+  border: 1px solid #62bdfc;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .latest .contant .news {
+    max-width: 400px;
+  }
+  .latest .contant .news h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .latest .contant .news .lorem {
+    font-size: 10px;
+    margin-bottom: 40px;
+  }
+  .latest .contant .cardBox {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .fashion .contant .week {
+    max-width: 400px;
+  }
+  .fashion .contant .week h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .fashion .contant .week .lorem {
+    font-size: 10px;
+    margin-bottom: 40px;
+  }
+  .fashion .contant .cardBox {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+.contant {
+  padding: 50px;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
