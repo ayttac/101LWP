@@ -1,0 +1,154 @@
+.visit_card {
+    .contant {
+        padding: 100px 0;
+
+        .you {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-family: "Mukta Mahee", arial, sans-serif;
+            color: #b3b3b3;
+            letter-spacing: .2em;
+            margin-bottom: 30px;
+        }
+
+        // you
+        .cards {
+            width: 100%;
+            display: flex;
+            gap: 30px;
+
+            .card_box {
+                width: 25%;
+
+                .card_img {
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    margin-bottom: 15px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .card_text {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    margin-bottom: 20px;
+                }
+
+                .card_star {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .star {
+                        span {
+                            i {
+                                font-size: 18px;
+                                color: #e61c5d;
+                            }
+                        }
+                    }
+
+                    .star_text {
+                        color: #6c757d
+                    }
+                }
+
+            }
+        }
+    }
+}
+// visit_card
+
+.gorgeous {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .place {
+        font-size: 80px;
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+
+    .lorem {
+        font-size:18px;
+        font-weight: 200;
+        max-width: 800px;
+        color: #6c757d;
+        line-height: 1.8;
+    }
+}
+// gorgeous
+.bootstrap{
+    margin: 0 auto;
+    max-width: 1123px;
+    #carouselExampleInterval{
+        margin-bottom: 50px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        .carousel-inner{
+            .carousel-item{
+               
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+// bootstrap
+
+.recent{
+    margin-top: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: url(/assest/img/round.png.webp);
+    padding-top: 60px;
+   .contant{ 
+    max-width: 1170px;
+    margin: 0 auto;
+    .blog{
+        text-align: center;
+        margin-top: 30px;
+        .post{
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        .lorem{
+            max-width: 500px;
+        }
+    }
+.recent_card{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    .card_box{
+        width: 30%;
+        margin-bottom: 40px;
+    background-color: white;
+        .card_img{
+            img{
+                width: 100%;
+            }
+        }
+        .time{
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: #ced4da;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+        }
+        .five{
+            font-size: 20px;
+            padding: 0 20px;
+        }
+    }
+}
+
+
+}
+}

@@ -1,0 +1,24 @@
+nav{
+    padding: 50px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .villa{
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        font-family: "Playfair+Display", times, serif;
+    }
+   .menu {
+    position: relative;
+    border: none;
+    width: 100%;
+    max-width: 20px;
+    height: 100%;
+      i{  
+        color: #fff;
+        position: absolute;
+        font-size: 30px;
+        transition-duration: 1s;}
+    }
+}

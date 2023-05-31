@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contant {
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  padding: 50px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .villa {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  font-family: "Playfair+Display", times, serif;
+}
+nav .menu {
+  position: relative;
+  border: none;
+  width: 100%;
+  max-width: 20px;
+  height: 100%;
+}
+nav .menu i {
+  color: #fff;
+  position: absolute;
+  font-size: 30px;
+  transition-duration: 1s;
+}
+
+.visit_card .contant {
+  padding: 100px 0;
+}
+.visit_card .contant .you {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  color: #b3b3b3;
+  letter-spacing: 0.2em;
+  margin-bottom: 30px;
+}
+.visit_card .contant .cards {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.visit_card .contant .cards .card_box {
+  width: 25%;
+}
+.visit_card .contant .cards .card_box .card_img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 15px;
+}
+.visit_card .contant .cards .card_box .card_img img {
+  width: 100%;
+}
+.visit_card .contant .cards .card_box .card_text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.visit_card .contant .cards .card_box .card_star {
+  display: flex;
+  justify-content: space-between;
+}
+.visit_card .contant .cards .card_box .card_star .star span i {
+  font-size: 18px;
+  color: #e61c5d;
+}
+.visit_card .contant .cards .card_box .card_star .star_text {
+  color: #6c757d;
+}
+
+.gorgeous {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.gorgeous .place {
+  font-size: 80px;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+.gorgeous .lorem {
+  font-size: 18px;
+  font-weight: 200;
+  max-width: 800px;
+  color: #6c757d;
+  line-height: 1.8;
+}
+
+.bootstrap {
+  margin: 0 auto;
+  max-width: 1123px;
+}
+.bootstrap #carouselExampleInterval {
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.bootstrap #carouselExampleInterval .carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+.recent {
+  margin-top: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(/assest/img/round.png.webp);
+  padding-top: 60px;
+}
+.recent .contant {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.recent .contant .blog {
+  text-align: center;
+  margin-top: 30px;
+}
+.recent .contant .blog .post {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.recent .contant .blog .lorem {
+  max-width: 500px;
+}
+.recent .contant .recent_card {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.recent .contant .recent_card .card_box {
+  width: 30%;
+  margin-bottom: 40px;
+  background-color: white;
+}
+.recent .contant .recent_card .card_box .card_img img {
+  width: 100%;
+}
+.recent .contant .recent_card .card_box .time {
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #ced4da;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.recent .contant .recent_card .card_box .five {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+header {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  background: url(/assest/img/hero_1.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: block;
+}
+header .empty {
+  background: url(/assest/img/hero_1.jpg.webp);
+}
+header .empty.overlay {
+  background: rgba(0, 0, 0, 0.45);
+  content: "";
+}
+header .contant {
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+header .contant .welcome .resort {
+  font-size: 80px;
+  font-family: "Playfair+Display", times, serif;
+  line-height: 1;
+  font-weight: bold;
+}
+header .contant .welcome .discover {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin: 50px 0;
+}
+header .contant .welcome_btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+header .contant .welcome_btn #explore_btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  color: #fff;
+}
+header .contant .welcome_btn .explore {
+  background-color: #e61c5d;
+  border-color: #e61c5d;
+}
+header .contant .welcome_btn .download {
+  border: 1px solid transparent;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f8f9fa;
+}
+
+.title {
+  display: none;
+  margin-top: 60px;
+}
+.title .title_content {
+  display: flex;
+  justify-content: space-around;
+}
+.title .title_content .title_text {
+  display: flex;
+  flex-direction: column;
+}
+.title .title_content .title_text .text {
+  color: #000;
+  font-size: 40px;
+  padding: 5px 10px;
+  position: relative;
+}
+.title .title_content .contact {
+  margin-top: 30px;
+}
+.title .title_content .contact .info {
+  font-family: "Mukta Mahee", arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: #adb5bd;
+  margin-bottom: 30px;
+}
+.title .title_content .contact .contact_text {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #6c757d;
+}
+.title .title_content .exit {
+  position: relative;
+  border: none;
+  width: 100%;
+  max-width: 20px;
+  height: 100%;
+}
+.title .title_content .exit i {
+  position: absolute;
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */

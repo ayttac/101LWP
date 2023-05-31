@@ -1,0 +1,134 @@
+
+header {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    background: url(/assest/img/hero_1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: block;
+    .empty{
+        background: url(/assest/img/hero_1.jpg.webp);
+    }
+    .empty.overlay{
+        background: rgba(0, 0, 0, 0.45);
+        content: "";
+    
+    }
+
+    .contant {
+        z-index: 1;
+        padding-top: 100px;
+        padding-bottom: 150px;
+        text-align: center;
+        .welcome {
+            .resort {
+                font-size: 80px;
+                font-family: "Playfair+Display", times, serif;
+                line-height: 1;
+                font-weight: bold;
+            }
+            .discover {
+                font-size: 30px;
+                font-weight: 200;
+                line-height: 1.5;
+                margin: 50px 0;
+            }
+
+        }
+        
+    .welcome_btn {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+      
+
+        #explore_btn {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 50px;
+            color: #fff;
+            
+        }
+
+        .explore {
+            background-color: #e61c5d;
+    border-color: #e61c5d;
+        }
+
+        .download {
+            border: 1px solid transparent;
+            background-color: transparent;
+            background-image: none;
+            border-color: #f8f9fa;
+        }
+    }
+
+    // welcome_btn
+    }
+
+}
+
+.title {
+    display: none;
+    margin-top: 60px;
+    
+    .title_content{
+        display: flex;
+        justify-content: space-around;
+    .title_text {
+        display: flex;
+        flex-direction: column;
+
+        .text {
+            color: #000;
+            font-size: 40px;
+            padding: 5px 10px;
+            position: relative;
+        }
+    }
+
+    // title_text
+    .contact {
+        margin-top: 30px;
+
+        .info {
+            font-family: "Mukta Mahee", arial, sans-serif;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: .2em;
+            color: #adb5bd;
+            margin-bottom: 30px;
+
+        }
+
+        .contact_text {
+            margin-top: 10px;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #6c757d;
+        }
+
+    }
+
+    // contact
+    .exit {
+        position: relative;
+        border: none;
+        width: 100%;
+        max-width: 20px;
+        height: 100%;
+        i {
+            position: absolute;
+            font-size: 40px;
+        }
+    }}
+}
+
+// title
