@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    *{box-sizing: border-box;}
+    body{background: linear-gradient(to right, #0099f7, #f11712);}
+    img{width: 100%;}
+
+    .container  {
+      margin-top: 40px;
+      gap: 1%;
+      row-gap: 10px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .container div{
+      width: 24.25%;
+      border: 1px solid rgb(0, 0, 0);
+      text-align: center;
+    }
+
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #ddd;
+    }
+  </style>
+  <body>
+    <h2>Sort Elements</h2>
+
+    <div>
+      <button id="acs" class="btn">asc (azalan)</button>
+      <button id="desc" class="btn">desc (artan)</button>
+    </div>
+
+    <div class="container">
+
+ 
+    </div>
+
+    <script>
+      //Buttonlar secilir
+      const acs = document.getElementById("acs");
+      const desc = document.getElementById("desc");
+      const container = document.querySelector(".container");
+
+
+      const data = [
+        {
+          name: "ANecef",
+          job: "Web Developer",
+        },
+        {
+          name: "Namiq",
+          job: "Front end",
+        },
+        {
+          name: "Kubra",
+          job: "Back End",
+        },
+        {
+          name: "BMirhesen",
+          job: "Jobless",
+        },
+        {
+          name: "DLetafet",
+          job: "Software Engineer",
+        },
+        {
+          name: "Cahangir",
+          job: "zPRO COPY PASTER",
+        },
+      ];
+      //  obyekt alib element yaradan funksiyami yaziram
+      function createItem(obj) {
+        const div = document.createElement("div");
+        const img = document.createElement("img");
+        const h3 = document.createElement("h3");
+        const p = document.createElement("p");
+
+        img.src = "https://placehold.co/400";
+        h3.innerText = obj.name;
+        p.innerText = obj.job;
+
+        div.append(img, h3, p);
+        container.append(div);
+      }
+
+
+      //ilk defe islesin yer doldursun deye sehifede cagiriram
+      data.forEach(x=>createItem(x))
+      //  buttonun a click  containerin icini temizlesin ve arrayi sort edib  elementleri yaratsin
+      acs.onclick = () => {
+        container.innerHTML = "";
+        data
+          .sort((a, b) => (a.name > b.name ? 1 : (b.name > a.name ? -1 : 0)))
+          .forEach((x) => createItem(x));
+      };
+
+      desc.onclick = () => {
+        container.innerHTML = "";
+        data
+          .sort((a, b) => (a.name < b.name ? 1 : (b.name < a.name ? -1 : 0)))
+          .forEach((x) => createItem(x));
+      };
+
+      // NOT sort un  qisa yazilisini "javascript sort object array by property" google yazaraq  stackOverlowda tapa bilersiz
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+_global.scss e bax !!!
+_reset.scss e bax !!!
+_homePage.scss e bax !!!
+
+Notlar:
+- Eger 7-1 yadindan cixirsa google yaz !!!
+- Sene lazim olmayan folderleri yaratman !!!
+- Komment yazmagi unutma ve ya tenbellik etme yaz !!!
+- Responsiv etmden diger sectiona kecme 
+- ilk html css yaz Responsiv olsun sonra js yaz 

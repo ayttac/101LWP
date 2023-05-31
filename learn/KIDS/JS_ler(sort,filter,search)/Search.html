@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: -webkit-linear-gradient(to right,#061700,#52c234); 
+        background: linear-gradient( to right,#061700, #52c234); 
+        padding: 40px;
+      }
+      #myInput {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+      }
+
+      #myUL {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      .card {
+        width: 150px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="color: white;">Search</h2>
+
+    <input id="myInput" placeholder="Search for names.." />
+
+    <div id="myUL">
+      <div class="card">
+        <img src="https://placehold.co/400" alt="" width="100%" />
+        <h3>JON MILLER</h3>
+        <p>Doctor Ph</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400" alt="" width="100%" />
+        <h3>NICK SAWYER</h3>
+        <p>Police</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400" alt="" width="100%" />
+        <h3>DANIEL PABLO</h3>
+        <p>Taxi Driver</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400" alt="" width="100%" />
+        <h3>ADIL</h3>
+        <p>Bussines Owner</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400" alt="" width="100%" />
+        <h3>YUSIF</h3>
+        <p>Soilder</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400" alt="" width="100%" />
+        <h3>Polad</h3>
+        <p>WEB Dev</p>
+      </div>
+    </div>
+
+    <script>
+      const myInput = document.getElementById("myInput");
+      const cards = document.querySelectorAll(".card");
+
+
+      //keydown yox keyup olmasina diqqet !!!
+      myInput.addEventListener("keyup", function () {
+
+        cards.forEach((element) => {
+          //element artiq her bir card i temsil edir ve element.querySelector deyende onun icindeki h3 u secirik
+          if (
+            element
+              .querySelector("h3")
+              .innerText.toLowerCase()
+              .includes(myInput.value.toLowerCase())
+          ) {
+            element.style.display = "block";
+          } else {
+            element.style.display = "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

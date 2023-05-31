@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,ul,ol{
+    text-decoration: none;
+    list-style: none;
+    //a tegi rengi alsin deye parentinden
+    color: inherit;
+}
+img{
+    width: 100%;
+}
