@@ -1,0 +1,118 @@
+nav {
+    width: 100%;
+    // max-width: 1500px;
+    margin-bottom: 10px;
+
+    .contant {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+
+        .nav_text {
+            letter-spacing: 6px;
+        }
+
+        .nav_menu {
+            display: none;
+            align-items: center;
+            border: 1px solid #868e96;
+            padding: 5px 13px;
+            margin: 3px 0;
+
+            i {
+                font-size: 25px;
+                color: #343a40;
+            }
+        }
+
+        // nav_text
+        .nav_title {
+            display: flex;
+            gap: 10px;
+
+            .adoption {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                .adoption_text {
+                    &:hover {
+                        color: #fff;
+                        transition: 300ms;
+
+                        .adoption_down {
+                            display: block !important;
+
+
+                        }
+                    }
+                }
+            }
+
+            .adoption_down {
+                position: absolute;
+                display: none;
+                background-clip: padding-box;
+                border: 1px solid rgba(0, 0, 0, 0.15);
+                border-radius: 0.25rem;
+                color: black;
+                z-index: 1;
+                background-color: #fff;
+                padding: 0;
+
+                ul {
+                    padding: 0;
+
+                    li {
+                        padding: 5px 25px;
+                        width: 100%;
+
+                        &:hover {
+                            color: #fff;
+                            background-color: #bc5148;
+                        }
+                    }
+                }
+            }
+        }
+
+        // nav_title
+    }
+
+    // contant
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        .contant {
+            padding: 0 50px;
+
+            .nav_text {
+                letter-spacing: 4px;
+            }
+
+            // nav_text
+            .nav_menu {
+                display: block;
+            }
+
+            .nav_title {
+                display: none;
+            }
+
+
+        }
+
+        // nav_title
+    }
+
+    // contant
+
+
+}
