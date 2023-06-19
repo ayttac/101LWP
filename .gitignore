@@ -8,6 +8,8 @@ settings.json
 *.jif
 *.jfif
 *.jfi
+*.avif
+
 
 # JPEG 2000
 *.jp2
